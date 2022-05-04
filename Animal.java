@@ -44,7 +44,7 @@ public abstract class Animal {
     public void radonId(){
 
         Random random = new Random();
-        this.id  = random.nextInt(10);
+        this.id  = random.nextInt(20);
 
     }
 
