@@ -48,7 +48,7 @@ public abstract class Animal {
 
     }
 
-    public void showCaracteristicas(){
+    public void showCaracteristicasP(){
 
         System.out.println("Nome : " + this.nome + 
         "\nCor Predominante : " + this.corPredominante +

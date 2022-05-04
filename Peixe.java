@@ -3,6 +3,8 @@ public class Peixe extends Animal {
     public Peixe(String nome, String corPredominante, String habitat, int numeroBarbatanas, Double comprimento) {
         super(nome, corPredominante, habitat);
         
+        this.numeroBarbatanas = numeroBarbatanas;
+        this.comprimento = comprimento;
     }
 
     int numeroBarbatanas;
@@ -23,6 +25,15 @@ public class Peixe extends Animal {
     }
 
     public void showCaracteristicas() {
+
+    }
+
+    public void showCaracteristicasF(){
+
+        showCaracteristicasP();
+        System.out.println(
+        "Numero Barbatanas : "+ this.numeroBarbatanas +
+        "\nComprimento : " + this.comprimento );
 
     }
 

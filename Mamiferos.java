@@ -1,10 +1,12 @@
 public class Mamiferos extends Animal {
 
-    public Mamiferos(String nome, String corPredominante, String habitat) {
+    public Mamiferos(String nome, String corPredominante, String habitat, double velocidade, String tipoAlimentação) {
         super(nome, corPredominante, habitat);
         
+        this.velocidade = velocidade; 
+        this.tipoAlimentação = tipoAlimentação;
     }
-    double velocidade;
+    double velocidade; 
     String tipoAlimentação;
 
 
@@ -20,5 +22,17 @@ public class Mamiferos extends Animal {
     public void setVelocidade(double velocidade) {
         this.velocidade = velocidade;
     }
+
+    public void showCaracteristicasF(){
+
+        showCaracteristicasP();
+
+        System.out.println(
+        "Velocidade : "+ this.velocidade +
+        "\nTipo De Alimentação : " + this.tipoAlimentação );
+
+    }
+
+
     
 }
