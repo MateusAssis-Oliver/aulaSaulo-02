@@ -24,10 +24,6 @@ public class Peixe extends Animal {
         this.numeroBarbatanas = numeroBarbatanas;
     }
 
-    public void showCaracteristicas() {
-
-    }
-
     public void showCaracteristicasF(){
 
         showCaracteristicasP();

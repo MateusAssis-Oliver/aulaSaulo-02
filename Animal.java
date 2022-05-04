@@ -50,7 +50,7 @@ public abstract class Animal {
 
     public void showCaracteristicasP(){
 
-        System.out.println("Nome : " + this.nome + 
+        System.out.println("\n\nNome : " + this.nome + 
         "\nCor Predominante : " + this.corPredominante +
         "\nHabitat : " + this.habitat +
         "\nId : " + this.id );
