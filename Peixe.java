@@ -26,10 +26,10 @@ public class Peixe extends Animal {
 
     public void showCaracteristicasF(){
 
-        showCaracteristicasP();
+        showCaracteristicas();
         System.out.println(
         "Numero Barbatanas : "+ this.numeroBarbatanas +
-        "\nComprimento : " + this.comprimento );
+        "\nComprimento : " + this.comprimento + "m" );
 
     }
 

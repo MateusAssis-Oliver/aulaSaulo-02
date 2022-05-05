@@ -22,7 +22,7 @@ public class Repteis extends Animal {
 
     public void showCaracteristicasF(){
 
-        showCaracteristicasP();
+        showCaracteristicas();
         System.out.println(
         "Numero De Patas : "+ this.numPatas +
         "\nAnfibio ? : " + this.anfibio );

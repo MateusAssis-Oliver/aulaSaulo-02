@@ -25,10 +25,10 @@ public class Mamiferos extends Animal {
 
     public void showCaracteristicasF(){
 
-        showCaracteristicasP();
+        showCaracteristicas();
 
         System.out.println(
-        "Velocidade : "+ this.velocidade +
+        "Velocidade : "+ this.velocidade + "km/h"+
         "\nTipo De Alimentação : " + this.tipoAlimentação );
 
     }

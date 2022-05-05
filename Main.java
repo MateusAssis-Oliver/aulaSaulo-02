@@ -5,9 +5,9 @@ public class Main {
 
         ArrayList<Animal> animais = new ArrayList<Animal>();
 
-        Peixe p = new Peixe("Teste", "azul", "agua", 2, 1.50);
-        Repteis r = new Repteis("Teste2", "red", "habitat", 2, true);
-        Mamiferos m = new Mamiferos("Teste3", "Roza", "terra", 2.3, "grama");
+        Peixe p = new Peixe("Atum", "azul", "agua", 2, 1.50);
+        Repteis r = new Repteis("Largaticha", "Cinza", "Terra", 2, true);
+        Mamiferos m = new Mamiferos("Cavalo", "Marom", "Terra", 2.3, "Grama");
 
         animais.add(p);
         animais.add(r);
