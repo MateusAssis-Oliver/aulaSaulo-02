@@ -1,3 +1,4 @@
+package aulaSauloHeranca;
 public class Repteis extends Animal {
     
     public Repteis(String nome, String corPredominante, String habitat, int numPatas, boolean anfibio) {
