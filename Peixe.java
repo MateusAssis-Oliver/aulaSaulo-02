@@ -1,3 +1,4 @@
+package aulaSauloHeranca;
 public class Peixe extends Animal {
     
     public Peixe(String nome, String corPredominante, String habitat, int numeroBarbatanas, Double comprimento) {
