@@ -1,3 +1,4 @@
+package aulaSauloHeranca;
 public class Mamiferos extends Animal {
 
     public Mamiferos(String nome, String corPredominante, String habitat, double velocidade, String tipoAlimentação) {
